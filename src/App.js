@@ -1,11 +1,14 @@
 import React from 'react';
 import LandingPage from "./components/LandingPage";
+import Header from "./components/Header";
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 class App extends React.Component {
   render(){
     return (
-      <LandingPage/>
+      <Header/>
           );
   }
 }
